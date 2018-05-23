@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAA,GAAI;EACF,WAAW,EAAE,eAAe;EAC5B,cAAc,EAAE,eAAe;;AAGjC,SAAU;EACR,aAAa,EAAE,eAAe;EAC9B,YAAY,EAAE,eAAe",
+"sources": ["../sass/partials/header.scss"],
 "names": [],
 "file": "styles.css"
 }
