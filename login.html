@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/main.css">
+
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Poppins" rel="stylesheet">
   <!-- Font Awesome -->
@@ -15,31 +17,33 @@
 </head>
 
 <body>
-  <div class="row">
-      <div class="col-md-6 leftpanel">
-        <h1 class="text-light">Kambooroo</h1>
+  <div class="row no-gutters">
+    <div class="col-md-6">
+      <div class="leftpanel">
+        <a href="index.html"><img src="img/Logo.svg" alt="" width="150"></a>
         <div class="text-content text-center">
           <h2 class="text-light">Bienvenue sur Kambooroo</h2>
           <p class="text-light">Connectez-vous en remplissant le formulaire ci-dessous ou inscrivez-vous !</p>
         </div>
       </div>
+    </div>
 
     <div class="col-md-6">
-      <div class="container">
-      <form>
+      <form class="form-section">
         <div class="form-group">
-          <label for="exampleInputEmail1">Email</label>
-          <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <label for="">Email</label>
+          <input type="email" class="form-control form-control-lg" id="" aria-describedby="emailHelp" placeholder="Enter email">
         </div>
         <div class="form-group">
-          <label for="exampleInputPassword1">Mot de passe</label>
-          <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Votre mot de passe">
-            <small id="emailHelp" class="form-text text-muted"><a href="#">Mot de passe oublié ?</a></small>
+          <label for="">Mot de passe</label>
+          <input type="password" class="form-control form-control-lg" id="" placeholder="Votre mot de passe">
         </div>
-        <button type="submit" class="btn btn-primary">Se connecter</button>
+        <div class="submit-form-button">
+          <button type="submit" class="btn btn-primary">Se connecter</button>
+          <small id="emailHelp" class="form-text text-muted"><a href="#">Mot de passe oublié ?</a></small>
+        </div>
       </form>
     </div>
-          </div>
   </div>
   <!-- Bootstrap Scripts -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
