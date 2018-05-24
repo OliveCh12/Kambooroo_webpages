@@ -1,35 +1,50 @@
 //button
+
 .btn-primary {
-    color: #fff;
-    background-color: $raspberry;
-    border: 1px solid $raspberry;
-    border-radius: 50px;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    width: 100%;
-
+  color: #fff;
+  background-color: $raspberry;
+  border: 1px solid $raspberry;
+  border-radius: 50px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  width: 100%;
 }
+
 .btn-primary:hover {
-    color: #fff;
-    background-color: $raspberry;
-    border: 1px solid $raspberry;
-    opacity: 0.9;
+  color: #fff;
+  background-color: $raspberry;
+  border: 1px solid $raspberry;
+  opacity: 0.9;
 }
+// Aside
 
+aside {
+  background-color: $raspberry;
+  height: 100vh;
+}
 // Form
-label{
+
+label {
   font-size: 10pt !important;
 }
-.form-section{
-    margin: auto;
-    width: 60%;
-    padding: 50px;
+
+.form-section {
+  margin: auto;
+  width: 60%;
+  padding: 50px;
 }
-.form-control{
+
+.form-control {
   border: 1.1px solid $raspberry;
   font-size: 10pt;
-  padding: 0.45rem .75rem;
+  padding: 0.45rem 0.75rem;
 }
-.submit-form-button{
+
+.form-control:focus {
+  border-color: $raspberry;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(178, 69, 146, 0.5);
+}
+
+.submit-form-button {
   text-align: center;
 }

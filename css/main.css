@@ -27,6 +27,10 @@ nav {
   border: 1px solid #B24592;
   opacity: 0.9; }
 
+aside {
+  background-color: #B24592;
+  height: 100vh; }
+
 label {
   font-size: 10pt !important; }
 
@@ -38,7 +42,11 @@ label {
 .form-control {
   border: 1.1px solid #B24592;
   font-size: 10pt;
-  padding: 0.45rem .75rem; }
+  padding: 0.45rem 0.75rem; }
+
+.form-control:focus {
+  border-color: #B24592;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(178, 69, 146, 0.5); }
 
 .submit-form-button {
   text-align: center; }
