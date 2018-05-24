@@ -21,11 +21,14 @@ label{
   font-size: 10pt !important;
 }
 .form-section{
-  margin-top: 20vh;
+    margin: auto;
+    width: 60%;
+    padding: 50px;
 }
 .form-control{
   border: 1.1px solid $raspberry;
-  font-size: 13pt
+  font-size: 10pt;
+  padding: 0.45rem .75rem;
 }
 .submit-form-button{
   text-align: center;
