@@ -16,34 +16,75 @@
   border: 1px solid $raspberry;
   opacity: 0.9;
 }
+
+.btn-nav {
+  margin-left: 1rem;
+}
+
+.btn-outline-primary {
+  border-radius: 50px;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 10pt;
+}
+
+.btn-outline-primary:hover {
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #474747;
+}
+
+.btn-outline-secondary {
+  border-radius: 50px;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  border: 1px solid #f1f1f1;
+  color: #f1f1f1;
+  font-size: 10pt;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #f1f1f1;
+  border: 1px solid #f1f1f1;
+  color: #474747;
+}
 // Aside
 
 aside {
   background-color: $raspberry;
   height: 100vh;
 }
-// Form
+
+.logo-home {}
+// Form input & label
 
 label {
   font-size: 10pt !important;
+  color: $raspberry;
+  font-weight: bold;
 }
 
 .form-section {
   margin: auto;
   width: 60%;
-  padding: 50px;
+  height: 100%;
 }
 
 .form-control {
-  border: 1.1px solid $raspberry;
+  border: 1.5px solid rgba($raspberry, 0.5);
   font-size: 10pt;
-  padding: 0.45rem 0.75rem;
+  padding: 0.7rem 0.75rem;
+  transition: 0.3s;
 }
 
 .form-control:focus {
   border-color: $raspberry;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(178, 69, 146, 0.5);
+  color: $raspberry;
+  box-shadow: none;
 }
+// Form Button
 
 .submit-form-button {
   text-align: center;

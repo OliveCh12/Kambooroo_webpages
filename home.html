@@ -17,30 +17,45 @@
 </head>
 
 <body>
-  <div class="row">
+  <div class="row no-gutters">
     <div class="col-md-3">
-      <aside class="">
-        <div class="container-fluid">
-          <img src="img/Logo.svg" alt="" width="150" class="logo-home">
-          <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="btn btn-primary" href="#">Active</a>
-            </li>
-            <li class="nav-item">
-              <a class="btn btn-primary" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="btn btn-primary" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="btn btn-primary" href="#">Disabled</a>
-            </li>
-          </ul>
-        </div>
-      </aside>
+      <nav class="sidebar">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <i class="fas fa-home fa-1x side-icon"></i><a class="nav-link active side-button" href="#">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <i class="fas fa-users fa-1x side-icon"></i><a class="nav-link side-button" href="#">Réseau</a>
+          </li>
+          <li class="nav-item">
+            <i class="fas fa-shield-alt fa-1x side-icon"></i><a class="nav-link side-button" href="#">Garde</a>
+          </li>
+          <li class="nav-item">
+            <i class="fas fa-puzzle-piece fa-1x side-icon"></i><a class="nav-link side-button" href="#">Ateliers</a>
+          </li>
+        </ul>
+        <hr>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <i class="fas fa-user fa-1x side-icon"></i><a class="nav-link side-button" href="#">Profil</a>
+          </li>
+          <li class="nav-item">
+            <i class="fas fa-envelope fa-1x side-icon"></i><a class="nav-link side-button" href="#">Nous contacter</a>
+          </li>
+          <li class="nav-item">
+            <i class="fas fa-sign-out-alt fa-1x side-icon"></i><a class="nav-link side-button" href="#">Déconnexion</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-    <div class="col-md-9">
-
+    <div class="col-md-9 ">
+      <main class="main-content">
+        <div class="container">
+          <h2>Bienvenue sur votre plateforme Kambooroo</h2>
+          <p>Avant de vous lancer dans l’aventure, prenez le temps d’apprendre à utiliser notre service.</p>
+          <a href="#" class="btn-outline">En savoir plus</a>
+          </div>
+      </main>
     </div>
   </div>
   <!-- Bootstrap Scripts -->
