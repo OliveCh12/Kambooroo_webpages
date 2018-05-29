@@ -112,16 +112,22 @@ label {
   margin-bottom: 1rem; }
 
 .nav-item {
-  display: inline-block; }
+  display: flex; }
 
 .side-icon {
   border: 1px solid #fff;
   padding: 1rem;
   margin-right: 1rem;
-  margin-bottom: auto;
+  margin-bottom: 0.5rem;
   border-radius: 100%;
   color: #B24592 !important;
-  background-color: #fff; }
+  background-color: #fff;
+  transition-property: transform;
+  transition: 0.3s; }
+
+.side-icon:hover {
+  color: #F15F79 !important;
+  transform: scale(1.1); }
 
 .side-button {
   width: 100%;
@@ -130,7 +136,15 @@ label {
   border: 1px solid #fff;
   border-radius: 50px;
   text-align: center;
-  margin-bottom: 1.5rem; }
+  margin-bottom: auto;
+  transition-property: background-color;
+  transition: 0.3s; }
+
+.side-button:hover {
+  border: 1px solid #fff;
+  border-radius: 50px;
+  color: #F15F79;
+  background-color: #fff; }
 
 #content {
   width: 100%; }
@@ -143,19 +157,9 @@ label {
     padding-left: 1rem; }
 
   .sidebar-logo {
-    width: 50px; } }
-.nav-item {
-  display: flex; }
+    width: 50px; }
 
-.side-icon {
-  vertical-align: middle;
-  color: #fff;
-  border-radius: 100%; }
-
-.side-button:hover {
-  border: 1px solid #fff;
-  border-radius: 50px;
-  color: #F15F79;
-  background-color: #fff; }
+  .side-button {
+    display: none; } }
 
 /*# sourceMappingURL=main.css.map */

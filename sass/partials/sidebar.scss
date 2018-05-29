@@ -25,17 +25,23 @@
 }
 
 .nav-item {
-  display: inline-block;
+  display: flex;
 }
 
 .side-icon {
   border: 1px solid $white;
   padding: 1rem;
   margin-right: 1rem;
-  margin-bottom: auto;
-  border-radius:100%;
+  margin-bottom: 0.5rem;
+  border-radius: 100%;
   color: $raspberry !important;
   background-color: $white;
+  transition-property: transform;
+  transition: 0.3s;
+}
+.side-icon:hover{
+  color: $strawberry !important;
+  transform: scale(1.1);
 }
 
 .side-button {
@@ -45,7 +51,16 @@
   border: 1px solid $white;
   border-radius: 50px;
   text-align: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: auto;
+  transition-property: background-color;
+  transition: 0.3s;
+}
+
+.side-button:hover {
+  border: 1px solid $white;
+  border-radius: 50px;
+  color: $strawberry;
+  background-color: $white;
 }
 
 #content {
@@ -62,21 +77,8 @@
   .sidebar-logo {
     width: 50px;
   }
-}
 
-.nav-item {
-  display: flex;
-}
-
-.side-icon {
-  vertical-align: middle;
-  color: $white;
-  border-radius: 100%;
-}
-
-.side-button:hover {
-  border: 1px solid $white;
-  border-radius: 50px;
-  color: $strawberry;
-  background-color: $white;
+  .side-button {
+    display: none;
+  }
 }
