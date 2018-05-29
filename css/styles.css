@@ -17,4 +17,32 @@ nav {
   padding-bottom: 10rem;
 }
 
+/* Sidebar Navigation */
+.wrapper{
+  display: flex;
+}
+#sidebar{
+  background-color: #FF5F5F;
+  height: 100vh;
+  max-width: 300px;
+  min-width: 300px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  transition-property: background-color, width;
+  transition: 0.3s;
+}
+.sidebar-title{
+  font-size: 10pt;
+}
+#content{
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  #sidebar{
+    background-color: #F1C550;
+    max-width: 80px;
+    min-width: 80px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
