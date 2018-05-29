@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/main.css">
+
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Poppins" rel="stylesheet">
   <!-- Font Awesome -->
@@ -19,30 +21,41 @@
     <!-- Sidebar Navigation -->
     <nav id="sidebar">
       <div class="sidebar-header">
-        <h3 class="sidebar-title">Kambooroo</h3>
-        <span class="sidebar-subtitle">Enjoy and create</span>
+        <a class="sidebar-title" href="#"><img src="img/Logo.svg" alt="" class="sidebar-logo"></a>
         <hr>
       </div>
       <div class="sidebar-navigation">
         <ul class="nav flex-column">
           <li class="nav-item">
-            <a class="nav-link" href="#">Active</a>
+            <i class="fas fa-home fa-1x side-icon"></i><a class="nav-link active side-button" href="#">Accueil</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <i class="fas fa-users fa-1x side-icon"></i><a class="nav-link side-button" href="#">Réseau</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <i class="fas fa-shield-alt fa-1x side-icon"></i><a class="nav-link side-button" href="#">Garde</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Disabled</a>
+            <i class="fas fa-puzzle-piece fa-1x side-icon"></i><a class="nav-link side-button" href="#">Ateliers</a>
+          </li>
+        </ul>
+        <hr>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <i class="fas fa-user fa-1x side-icon"></i><a class="nav-link side-button" href="#">Profil</a>
+          </li>
+          <li class="nav-item">
+            <i class="fas fa-envelope fa-1x side-icon"></i><a class="nav-link side-button" href="#">Nous contacter</a>
+          </li>
+          <li class="nav-item">
+            <i class="fas fa-sign-out-alt fa-1x side-icon"></i><a class="nav-link side-button" href="#">Déconnexion</a>
           </li>
         </ul>
       </div>
     </nav>
     <!-- Content Section -->
     <div id="content">
-      <div class="container-fluid">
+      <div class="container">
         <button type="button" name="button" id="sidebarCollapse" class="btn btn-primary">Collapse</button>
         <h3>My Content</h3> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
         irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

@@ -89,65 +89,73 @@ label {
 .submit-form-button {
   text-align: center; }
 
-.sidebar {
+/* Sidebar Component */
+.wrapper {
+  display: flex; }
+
+#sidebar {
   background-image: linear-gradient(0deg, #F15F79 0%, #B24592 100%);
   height: 100vh;
-  padding: 2rem; }
+  max-width: 300px;
+  min-width: 300px;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  transition-property: background-color, width;
+  transition: 0.2s; }
 
-.nav-item .nav-link {
-  margin-bottom: 20px; }
+.sidebar-header {
+  text-align: center; }
+
+.sidebar-logo {
+  width: 170px;
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+
+.nav-item {
+  display: inline-block; }
+
+.side-icon {
+  border: 1px solid #fff;
+  padding: 1rem;
+  margin-right: 1rem;
+  margin-bottom: auto;
+  border-radius: 100%;
+  color: #B24592 !important;
+  background-color: #fff; }
 
 .side-button {
+  width: 100%;
+  color: #fff;
+  font-size: 10pt;
   border: 1px solid #fff;
   border-radius: 50px;
-  color: #fff;
-  padding: 0.6rem;
   text-align: center;
-  transition: 0.3s;
-  margin-top: 0.5rem;
-  display: inline-block;
-  width: auto;
-  font-size: 10pt; }
+  margin-bottom: 1.5rem; }
+
+#content {
+  width: 100%; }
+
+@media (max-width: 1000px) {
+  #sidebar {
+    max-width: 80px;
+    min-width: 80px;
+    padding-right: 1rem;
+    padding-left: 1rem; }
+
+  .sidebar-logo {
+    width: 50px; } }
+.nav-item {
+  display: flex; }
+
+.side-icon {
+  vertical-align: middle;
+  color: #fff;
+  border-radius: 100%; }
 
 .side-button:hover {
   border: 1px solid #fff;
   border-radius: 50px;
   color: #F15F79;
   background-color: #fff; }
-
-.side-icon {
-  color: #B24592;
-  background-color: #fff;
-  padding: 1rem;
-  border-radius: 100%;
-  vertical-align: middle;
-  margin-right: 1rem; }
-
-.cd-side-nav {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity 0.2s 0s, visibility 0s 0.2s;
-  background-color: #B24592; }
-
-.cd-side-nav.nav-is-visible {
-  opacity: 1;
-  visibility: visible;
-  transition: opacity 0.2s 0s, visibility 0s 0s; }
-
-@media only screen and (min-width: 768px) {
-  .cd-side-nav {
-    position: relative;
-    float: left;
-    width: 110px;
-    /* reset style */
-    visibility: visible;
-    opacity: 1; } }
-@media only screen and (min-width: 768px) {
-  .cd-main-content .content-wrapper {
-    margin-left: 110px; } }
 
 /*# sourceMappingURL=main.css.map */

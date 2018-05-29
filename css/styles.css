@@ -1,27 +1,33 @@
-body{
+body {
   font-family: 'Poppins', sans-serif;
 }
-h1, h2, h3{
+
+h1, h2, h3 {
   font-family: 'Montserrat' sans-serif;
 }
-p{
+
+p {
   font-size: 11pt;
   line-height: 20pt;
 }
+
 nav {
   padding-top: 15px !important;
   padding-bottom: 15px !important;
 }
-.feature-content{
+
+.feature-content {
   padding-top: 10rem;
   padding-bottom: 10rem;
 }
 
 /* Sidebar Navigation */
-.wrapper{
+
+.wrapper {
   display: flex;
 }
-#sidebar{
+
+#sidebar {
   background-color: #FF5F5F;
   height: 100vh;
   max-width: 300px;
@@ -29,20 +35,32 @@ nav {
   padding-right: 1rem;
   padding-left: 1rem;
   transition-property: background-color, width;
-  transition: 0.3s;
+  transition: 0.2s;
 }
-.sidebar-title{
-  font-size: 10pt;
+.sidebar-header{
+  text-align: center;
 }
-#content{
+.sidebar-logo{
+  width: 170px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.sidebar-navigation{
+}
+
+#content {
   width: 100%;
 }
 
 @media (max-width: 1000px) {
-  #sidebar{
+  #sidebar {
     background-color: #F1C550;
     max-width: 80px;
     min-width: 80px;
   }
+  .sidebar-logo{
+    width: 50px;
+  }
 }
+
 /*# sourceMappingURL=styles.css.map */
