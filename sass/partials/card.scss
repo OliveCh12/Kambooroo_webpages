@@ -1,0 +1,32 @@
+.card{
+  margin-bottom: 30px;
+  padding: 1rem;
+}
+.card-text{
+  font-size: 10pt !important;
+}
+.card-profil{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.card-button-group{
+  display: flex;
+  justify-content: space-around;
+}
+.card-button{
+  border: 1px solid $raspberry;
+  border-radius: 50px;
+  background-color: $raspberry;
+  color: $white;
+  padding: 0.5rem;
+  font-size: 10pt;
+  width: 100%;
+  margin: 0.5rem;
+}
+.card-button:hover{
+  background-color: $strawberry;
+  color: $white;
+  text-decoration: none;
+  border: none;
+}

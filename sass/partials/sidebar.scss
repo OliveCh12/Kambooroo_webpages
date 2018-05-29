@@ -39,7 +39,8 @@
   transition-property: transform;
   transition: 0.3s;
 }
-.side-icon:hover{
+
+.side-icon:hover {
   color: $strawberry !important;
   transform: scale(1.1);
 }
@@ -61,10 +62,6 @@
   border-radius: 50px;
   color: $strawberry;
   background-color: $white;
-}
-
-#content {
-  width: 100%;
 }
 @media (max-width: 1000px) {
   #sidebar {
