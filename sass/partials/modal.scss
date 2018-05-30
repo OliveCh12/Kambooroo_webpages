@@ -1,0 +1,18 @@
+.modal-content{
+  padding: 2rem;
+}
+
+.modal-button {
+  color: $raspberry;
+  border: 1px solid $raspberry;
+  padding: 7px 20px;
+  border-radius: 60px;
+  font-size: 10pt;
+  transition: 0.2s;
+}
+
+.modal-button:hover {
+  color: $white;
+  border: 1px solid $raspberry;
+  background-color: $raspberry;
+}
