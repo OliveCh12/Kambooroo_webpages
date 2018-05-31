@@ -9,17 +9,30 @@
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+.content-subtitle {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 15pt;
+}
+
+.content-strong {
+  text-transform: uppercase;
+  font-weight: bolder;
   color: $raspberry;
 }
-.content-subtitle{
-  text-align: center;
-  margin: 2rem 0 2rem 0;
-  font-size: 15pt;
+
+.content-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .content-divider {
   border: 1px solid $raspberry;
-  width: 50%;
+  width: 20%;
 }
 
 .content-button-group {
@@ -36,8 +49,12 @@
   font-size: 10pt;
   width: 100%;
   text-align: center;
-  margin: 10px 20px 10px 20px;
+  margin: 10px 20px;
   color: $raspberry;
+}
+
+.content-profil {
+  text-align: center;
 }
 
 .content-button:hover {

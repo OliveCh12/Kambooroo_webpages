@@ -27,16 +27,16 @@
       <div class="sidebar-navigation">
         <ul class="nav flex-column">
           <li class="nav-item">
-            <a href=""><i class="fas fa-home fa-1x side-icon"></i></a><a class="nav-link active side-button" href="#">Accueil</a>
+            <a href=""><i class="fas fa-home fa-1x side-icon"></i></a><a class="nav-link side-button" href="home.html">Accueil</a>
           </li>
           <li class="nav-item">
-            <a href=""><i class="fas fa-users fa-1x side-icon"></i></a><a class="nav-link side-button" href="#">Réseau</a>
+            <a href=""><i class="fas fa-users fa-1x side-icon"></i></a><a class="nav-link side-button" href="nav.html">Réseau</a>
           </li>
           <li class="nav-item">
-            <a href=""><i class="fas fa-shield-alt fa-1x side-icon"></i></a><a class="nav-link side-button" href="#">Garde</a>
+            <a href=""><i class="fas fa-shield-alt fa-1x side-icon"></i></a><a class="nav-link side-button" href="garde1.html">Garde</a>
           </li>
           <li class="nav-item">
-            <a href=""><i class="fas fa-puzzle-piece fa-1x side-icon"></i></a><a class="nav-link side-button" href="#">Ateliers</a>
+            <a href=""><i class="fas fa-puzzle-piece fa-1x side-icon"></i></a><a class="nav-link side-button active" href="atelier1.html">Ateliers</a>
           </li>
         </ul>
         <hr>
@@ -56,67 +56,34 @@
     <!-- Content Section -->
     <div class="content">
       <div class="container">
-        <h3 class="content-title">Garde</h3>
+        <h3 class="content-title">PROFIL DE <strong class="content-strong">Micheal Jordan</strong></h3>
         <hr class="content-divider">
-        <div class="content-button-group">
-          <a class="content-button" href="garde2.html">Proposer / Besoin</a>
-          <a class="content-button" href="#">Mes gardes</a>
-        </div>
-        <div class="content-subtitle">
-          Proposer / Besoin d'une garde
-        </div>
-        <div class="card">
-          <div class="card-text text-center">
-            Remplissez le formulaire ci-dessous afin de soliciter votre réseau de confiance pour garder votre enfants.
-          </div>
-          <form>
+        <div class="content-form">
+          <img class="rounded-circle" src="https://c.pxhere.com/photos/e8/60/smile_profile_face_male_portrait_young_person_glasses-451653.jpg!d" alt="" width="150" height="150">
+          <a href="btn btn-primary">Changer Photo</a>
+          <form class="" action="index.html" method="post">
             <div class="row">
-              <div class="col-md-4">
+              <div class="col-md-6">
                 <div class="form-group">
-                  <label for="">Nombre d'enfants</label>
-                  <select class="form-control" name="">
-                     <option>1</option>
-                     <option>2</option>
-                     <option>3</option>
-                  </select>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="form-group">
-                  <label for="">Age des enfants</label>
-                  <input class="form-control" type="number" name="" value="" min="1" max="15" placeholder="Age">
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="form-group">
-                  <label for="">Date</label>
-                  <input type="date" class="form-control" placeholder="Entrez une date">
+                  <label for="">Code Postal</label>
+                  <input class="form-control" type="number" name="" value="" maxlength="5" placeholder="Code Postal">
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <label for="">Choisir un ami</label>
-                  <input type="search" class="form-control" placeholder="Choissisez votre ami">
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <label for="">Temps de garde</label>
-                  <input type="time" class="form-control" placeholder="Entrez une durée">
+                  <label for="">Ville</label>
+                  <input class="form-control" type="text" name="" value="" placeholder="Ville">
                 </div>
               </div>
               <div class="col-md-12">
                 <div class="form-group">
-                  <label for="">Localisation</label>
-                  <input type="text" class="form-control" placeholder="Localisation">
+                  <label for="">Téléphone</label>
+                  <input class="form-control" type="tel" name="" value="" placeholder="Téléphone">
                 </div>
               </div>
             </div>
-            <div class="text-center">
-              <button class="card-button-outline" type="submit" name="button" style="width: 100px;">Publier</button>
-            </div>
+            <button class="btn btn-primary" type="button" name="button">Enregistrer</button>
           </form>
-        </div>
       </div>
     </div>
   </div>

@@ -22,6 +22,10 @@ p {
   justify-content: center;
   align-items: center; }
 
+.rounded-circle {
+  object-fit: cover;
+  margin: 2rem; }
+
 .content {
   width: 100%;
   padding: 1rem;
@@ -31,17 +35,27 @@ p {
 .content-title {
   text-align: center;
   text-transform: uppercase;
-  font-weight: bold;
-  color: #B24592; }
+  font-weight: bold; }
 
 .content-subtitle {
   text-align: center;
-  margin: 2rem 0 2rem 0;
+  margin: 2rem 0;
   font-size: 15pt; }
+
+.content-strong {
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: #B24592; }
+
+.content-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
 
 .content-divider {
   border: 1px solid #B24592;
-  width: 50%; }
+  width: 20%; }
 
 .content-button-group {
   display: flex;
@@ -56,8 +70,11 @@ p {
   font-size: 10pt;
   width: 100%;
   text-align: center;
-  margin: 10px 20px 10px 20px;
+  margin: 10px 20px;
   color: #B24592; }
+
+.content-profil {
+  text-align: center; }
 
 .content-button:hover {
   text-decoration: none;
