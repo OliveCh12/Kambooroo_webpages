@@ -51,8 +51,12 @@
   text-align: center;
   margin: 10px 20px;
   color: $raspberry;
+  transition: 0.2s;
 }
-
+.content-button:active{
+  background-color: $raspberry;
+  color: $white;
+}
 .content-profil {
   text-align: center;
 }
