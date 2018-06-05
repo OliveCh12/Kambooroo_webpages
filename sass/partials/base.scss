@@ -32,13 +32,15 @@ a {
 }
 
 .nav-link {
-  color: $raspberry;
+  color: $grey;
 }
 
 .nav-link:hover {
   color: $strawberry;
 }
+.nav-link-active{
 
+}
 .rounded-circle {
   object-fit: cover;
   margin: 2rem;

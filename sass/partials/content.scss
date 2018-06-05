@@ -2,7 +2,7 @@
   width: 100%;
   padding: 1rem;
   position: relative;
-  overflow: auto;
+  overflow: scroll;
 }
 
 .content-title {
@@ -53,9 +53,22 @@
   color: $raspberry;
   transition: 0.2s;
 }
-.content-button:active{
+.content-button-active{
+  padding: 0.5rem;
+  border: 1px solid $raspberry;
   background-color: $raspberry;
+  font-weight: bolder;
+  border-radius: 100px;
+  font-size: 10pt;
+  width: 100%;
+  text-align: center;
+  margin: 10px 20px;
   color: $white;
+  transition: 0.2s;
+}
+.content-button-active:hover{
+  color: $white;
+  text-decoration: none;
 }
 .content-profil {
   text-align: center;
