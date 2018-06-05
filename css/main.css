@@ -188,7 +188,7 @@ label {
 
 #sidebar {
   background-image: linear-gradient(0deg, #F15F79 0%, #B24592 100%);
-  height: 150vh;
+  height: 250vh;
   max-width: 300px;
   min-width: 300px;
   padding-right: 2rem;
@@ -274,6 +274,21 @@ label {
   height: auto;
   object-fit: cover; }
 
+.card-age {
+  border: 2px solid #B24592;
+  border-radius: 100px;
+  padding: 2rem;
+  color: #B24592;
+  background-color: #fff;
+  margin-top: -70px;
+  margin-bottom: 20px;
+  width: 115px; }
+
+.card-img-top {
+  object-fit: cover;
+  width: 100% !important;
+  height: 200px !important; }
+
 .card-img-left {
   width: 100%;
   height: 100%;
@@ -318,6 +333,11 @@ label {
 
 .modal-content {
   padding: 2rem; }
+
+.modal-info {
+  color: #B24592;
+  opacity: 1 !important;
+  font-size: 12pt; }
 
 .modal-button {
   color: #B24592;

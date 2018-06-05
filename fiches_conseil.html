@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Fiches Conseils</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Poppins" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- Sidebar Component -->
+    <nav id="sidebar">
+      <div class="sidebar-header">
+        <a class="sidebar-title" href="#"><img src="img/Logo.svg" alt="" class="sidebar-logo"></a>
+        <hr>
+      </div>
+      <div class="sidebar-navigation">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a href=""><i class="fas fa-home fa-1x side-icon"></i></a><a class="nav-link side-button" href="home.html">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a href=""><i class="fas fa-users fa-1x side-icon"></i></a><a class="nav-link side-button" href="nav.html">Réseau</a>
+          </li>
+          <li class="nav-item">
+            <a href=""><i class="fas fa-shield-alt fa-1x side-icon"></i></a><a class="nav-link side-button active" href="garde1.html">Garde</a>
+          </li>
+          <li class="nav-item">
+            <a href=""><i class="fas fa-puzzle-piece fa-1x side-icon"></i></a><a class="nav-link side-button" href="atelier1.html">Ateliers</a>
+          </li>
+          <li class="nav-item">
+            <a href=""><i class="fas fa-align-justify fa-1x side-icon"></i></a><a class="nav-link side-button" href="fiches_conseils.html">Fiches Conseils</a>
+          </li>
+        </ul>
+        <hr>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a href=""><i class="fas fa-user fa-1x side-icon"></i></a><a class="nav-link side-button" href="#">Profil</a>
+          </li>
+          <li class="nav-item">
+            <a href=""><i class="fas fa-envelope fa-1x side-icon"></i></a><a class="nav-link side-button" href="#">Nous contacter</a>
+          </li>
+          <li class="nav-item">
+            <a href=""><i class="fas fa-sign-out-alt fa-1x side-icon"></i></a><button type="button" class="nav-link side-button" data-toggle="modal" data-target="#LogoutModal">
+              Déconnexion
+            </button>
+          </li>
+        </ul>
+      </div>
+      <!-- Logout Modal -->
+      <div class="modal fade" id="LogoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content text-center">
+            <div class="modal-body">
+              <p class="modal-info">Etes vous sûre de vouloir vous deconnectez ?</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Non</button>
+              <button type="button" class="btn btn-primary">Oui</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Content Section -->
+    <div class="content">
+      <div class="container">
+        <h3 class="content-title">Fiches Conseils</h3>
+        <hr class="content-divider">
+        <div class="text-center">
+          <p>Astuces et informations pour les parents au quotidien.</p>
+        </div>
+
+        <!-- Cards -->
+        <div class="row">
+
+          <div class="col-md-4">
+            <div class="card text-center">
+              <img class="card-img-top" src="https://previews.123rf.com/images/famveldman/famveldman1512/famveldman151200063/49486322-children-playing-with-wooden-train-toddler-kid-and-baby-play-with-blocks-trains-and-cars-educational.jpg" alt="Card image cap">
+              <div class="card-body">
+                <div class="card-age mx-auto d-block">
+                  2 - 3
+                  <br>
+                  <strong>ans</strong>
+                </div>
+                <div class="card-title">Fiche conseil n°1</div>
+                <div class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </div>
+                <div class="card-button-group">
+                  <a class="card-button-outline" href="#">Télécharger</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card text-center">
+              <img class="card-img-top" src="https://www.todaysparent.com/wp-content/uploads/2017/09/unexpected-ways-outdoor-play-can-benefit-your-kid-1024x576-1499960820.jpg" alt="Card image cap">
+              <div class="card-body">
+                <div class="card-age mx-auto d-block">
+                  2 - 3
+                  <br>
+                  <strong>ans</strong>
+                </div>
+                <div class="card-title">Fiche conseil n°1</div>
+                <div class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </div>
+                <div class="card-button-group">
+                  <a class="card-button-outline" href="#">Télécharger</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card text-center">
+              <img class="card-img-top" src="https://previews.123rf.com/images/famveldman/famveldman1512/famveldman151200063/49486322-children-playing-with-wooden-train-toddler-kid-and-baby-play-with-blocks-trains-and-cars-educational.jpg" alt="Card image cap">
+              <div class="card-body">
+                <div class="card-age mx-auto d-block">
+                  2 - 3
+                  <br>
+                  <strong>ans</strong>
+                </div>
+                <div class="card-title">Fiche conseil n°1</div>
+                <div class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </div>
+                <div class="card-button-group">
+                  <a class="card-button-outline" href="#">Télécharger</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card text-center">
+              <img class="card-img-top" src="https://previews.123rf.com/images/famveldman/famveldman1512/famveldman151200063/49486322-children-playing-with-wooden-train-toddler-kid-and-baby-play-with-blocks-trains-and-cars-educational.jpg" alt="Card image cap">
+              <div class="card-body">
+                <div class="card-age mx-auto d-block">
+                  2 - 3
+                  <br>
+                  <strong>ans</strong>
+                </div>
+                <div class="card-title">Fiche conseil n°1</div>
+                <div class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </div>
+                <div class="card-button-group">
+                  <a class="card-button-outline" href="#">Télécharger</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card text-center">
+              <img class="card-img-top" src="https://previews.123rf.com/images/famveldman/famveldman1512/famveldman151200063/49486322-children-playing-with-wooden-train-toddler-kid-and-baby-play-with-blocks-trains-and-cars-educational.jpg" alt="Card image cap">
+              <div class="card-body">
+                <div class="card-age mx-auto d-block">
+                  2 - 3
+                  <br>
+                  <strong>ans</strong>
+                </div>
+                <div class="card-title">Fiche conseil n°1</div>
+                <div class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </div>
+                <div class="card-button-group">
+                  <a class="card-button-outline" href="#">Télécharger</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+</body>
+
+</html>
