@@ -1,34 +1,30 @@
 body {
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 10pt !important;
   background-color: #f5f5f5;
 }
 
+h1,
+h2,
+h3 {
+  font-family: 'Montserrat' sans-serif !important;
+  font-weight: bolder;
+}
+
 p {
-  opacity: 0.7 !important;
+  opacity: 0.7;
+  line-height: 20pt;
 }
 
 a {
-  color: $raspberry;
+  color: $raspberry !important;
+  transition: 0.2s;
 }
 
-.main-content {
-  padding: 2rem;
-}
-
-.left-panel {
-  height: 100vh;
-  padding: 2rem;
-  background-image: linear-gradient(0deg, #B24592 0%, #F15F79 100%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.right-panel {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+a:hover {
+  color: $strawberry !important;
+  text-decoration: none !important;
+  transform: scale(1.1) !important;
 }
 
 .nav-link {
@@ -38,13 +34,14 @@ a {
 .nav-link:hover {
   color: $strawberry;
 }
-.nav-link-active{
 
-}
+.nav-link-active {}
+
 .rounded-circle {
   object-fit: cover;
   margin: 2rem;
 }
+
 .img-fluid {
   object-fit: cover;
 }

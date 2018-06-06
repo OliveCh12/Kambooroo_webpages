@@ -1,0 +1,47 @@
+/* Left & Right Panel */
+
+.wrapper {
+  display: flex;
+}
+
+.leftpanel {
+  background-image: linear-gradient(0deg, #B24592 0%, #F15F79 100%);
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.rightpanel {
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.mobile-display {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .leftpanel {
+    display: none;
+  }
+  .rightpanel {
+    width: 100%;
+    height: 100%;
+  }
+  .mobile-display {
+    display: block;
+    padding-bottom: 2rem;
+  }
+}

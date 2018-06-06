@@ -3,12 +3,10 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Login</title>
+  <link rel="stylesheet" href="css/main.css">
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/main.css">
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Poppins" rel="stylesheet">
@@ -17,38 +15,43 @@
 </head>
 
 <body>
-  <div class="row no-gutters">
-    <div class="col-md-6">
-      <div class="leftpanel">
-        <a href="index.html"><img src="img/Logo.svg" alt="" width="150"></a>
-        <div class="text-content text-center">
-          <h2 class="text-light">Bienvenue sur Kambooroo</h2>
-          <p class="text-light">Connectez-vous en remplissant le formulaire ci-dessous ou inscrivez-vous !</p>
-        </div>
-      </div>
-    </div>
+  <div class="page">
+    <div class="wrapper">
 
-    <div class="col-md-6">
-      <form class="form-section">
-        <div class="form-group">
-          <label for="">Email</label>
-          <input type="email" class="form-control form-control-lg" id="" aria-describedby="emailHelp" placeholder="Enter email">
+      <!-- Left panel - Content -->
+      <div class="leftpanel text-center">
+        <h3 class="text-light">Bienvenue sur Kamboooroo.com !</h3>
+        <p class="text-light">Connectez-vous en remplissant le formulaire ci-dessous ou inscrivez-vous !</p>
+        <a class="text-light mt-2" href="index.html"><i class="fas fa-arrow-left"></i> Retour à l'accueil</a>
+      </div>
+
+      <!-- Right panel - Content -->
+
+      <div class="rightpanel">
+        <div class="mobile-display text-center">
+          <h3 class="text-dark">Bienvenue sur Kamboooroo.com !</h3>
+          <p class="text-dark">Inscrivez-vous en remplissant le formulaire ci-dessous ou connectez-vous !</p>
         </div>
-        <div class="form-group">
-          <label for="">Mot de passe</label>
-          <input type="password" class="form-control form-control-lg" id="" placeholder="Votre mot de passe">
-        </div>
-        <div class="submit-form-button">
-          <button type="submit" class="btn btn-primary">Se connecter</button>
-          <small id="" class="form-text text-muted"><a href="#">Mot de passe oublié ?</a></small>
-        </div>
-      </form>
+        <form class="form-section">
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="">E-Mail</label>
+              <input type="email" class="form-control" id="" placeholder="Votre adresse e-mail">
+            </div>
+            <div class="form-group col-md-12">
+              <label for="">Mot de passe</label>
+              <input type="password" class="form-control" id="" placeholder="Votre mot de passe">
+            </div>
+          </div>
+          <div class="submit-form-button">
+            <button type="submit" class="btn btn-primary">Se connecter</button>
+            <small id="" class="form-text text-muted my-3"><a href="signup.html">Vous n'avez pas de compte ?</a></small>
+          </div>
+        </form>
+      </div>
+
     </div>
   </div>
-  <!-- Bootstrap Scripts -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
 </body>
 

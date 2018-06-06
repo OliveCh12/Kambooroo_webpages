@@ -3,12 +3,10 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="css/main.css">
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/main.css">
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Poppins" rel="stylesheet">
@@ -17,69 +15,74 @@
 </head>
 
 <body>
-  <div class="row no-gutters">
-    <div class="col-md-6 left-panel">
-        <a href="index.html"><img src="img/Logo.svg" alt="" width="150"></a>
-        <div class="text-content text-center">
-          <h2 class="text-light">Bienvenue sur Kambooroo</h2>
-          <p class="text-light">Inscrivez-vous en remplissant le formulaire ci-dessous ou connectez-vous !</p>
-          <br>
-          <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget accumsan risus. Nulla ac lacus sed augue commodo gravida sit amet pellentesque turpis. Nunc ullamcorper leo quis commodo mattis. Donec volutpat, dolor ut congue pretium, ex
-            lectus ultricies massa, quis fringilla diam lacus in augue.</p>
-        </div>
-    </div>
+  <div class="page">
+    <div class="wrapper">
 
-    <div class="col-md-6 right-panel">
-      <form class="form-section">
-        <div class="form-row">
-          <div class="form-group col-md-6">
-            <label for="">Nom</label>
-            <input type="text" class="form-control" id="" placeholder="Votre nom">
-          </div>
-          <div class="form-group col-md-6">
-            <label for="">Prénom</label>
-            <input type="text" class="form-control" id="" placeholder="Votre prénom">
-          </div>
+      <!-- Left panel - Content -->
+      <div class="leftpanel text-center">
+        <h3 class="text-light">Bienvenue sur Kamboooroo.com !</h3>
+        <p class="text-light">Inscrivez-vous en remplissant le formulaire ci-dessous ou connectez-vous !</p>
+        <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <a class="text-light mt-2"href="index.html"><i class="mr-1 fas fa-arrow-left"></i> Retour à l'accueil</a>
+      </div>
+
+      <!-- Right panel - Content -->
+
+      <div class="rightpanel">
+        <div class="mobile-display text-center">
+          <h3 class="text-dark">Bienvenue sur Kamboooroo.com !</h3>
+          <p class="text-dark">Inscrivez-vous en remplissant le formulaire ci-dessous ou connectez-vous !</p>
+          <a class="mt-2"href="index.html"><i class="mr-1 fas fa-arrow-left"></i> Retour à l'accueil</a>
+
         </div>
-        <div class="form-group">
-          <label for="inputAddress">E-mail</label>
-          <input type="email" class="form-control" id="" placeholder="Votre e-mail">
-        </div>
-        <div class="form-row">
-          <div class="form-group col-md-6">
-            <label for="">Mot de Passe</label>
-            <input type="password" class="form-control" id="" placeholder="Mot de passe">
+        <form class="form-section">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="">Nom</label>
+              <input type="text" class="form-control" id="" placeholder="Votre nom">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="">Prénom</label>
+              <input type="text" class="form-control" id="" placeholder="Votre prénom">
+            </div>
           </div>
-          <div class="form-group col-md-6">
-            <label for="">Confirmation</label>
-            <input type="password" class="form-control" id="" placeholder="Mot de passe">
+          <div class="form-group">
+            <label for="inputAddress">E-mail</label>
+            <input type="email" class="form-control" id="" placeholder="Votre e-mail">
           </div>
-        </div>
-        <div class="form-row">
-          <div class="form-group col-md-6">
-            <label for="">Code Postal</label>
-            <input type="text" class="form-control" id="" placeholder="Code Postal">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="">Mot de Passe</label>
+              <input type="password" class="form-control" id="" placeholder="Mot de passe">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="">Confirmation</label>
+              <input type="password" class="form-control" id="" placeholder="Mot de passe">
+            </div>
           </div>
-          <div class="form-group col-md-6">
-            <label for="">Ville</label>
-            <input type="text" class="form-control" id="" placeholder="Ville">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="">Code Postal</label>
+              <input type="number" class="form-control" id="" placeholder="Code Postal">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="">Ville</label>
+              <input type="text" class="form-control" id="" placeholder="Ville">
+            </div>
           </div>
-        </div>
-        <div class="form-group">
-          <label for="">Téléphone</label>
-          <input type="tel" class="form-control" id="inputAddress2" placeholder="Votre numéro">
-        </div>
-        <div class="submit-form-button">
-        <button type="submit" class="btn btn-primary">Sign in</button>
-        <small id="" class="form-text text-muted my-3"><a href="#">Vous avez déjà un compte ?</a></small>
-</div>
-      </form>
+          <div class="form-group">
+            <label for="">Téléphone</label>
+            <input type="tel" class="form-control" id="inputAddress2" placeholder="Votre numéro">
+          </div>
+          <div class="submit-form-button">
+            <button type="submit" class="btn btn-primary">Sign in</button>
+            <small id="" class="form-text text-muted my-3"><a href="login.html">Vous avez déjà un compte ?</a></small>
+          </div>
+        </form>
+      </div>
+
     </div>
   </div>
-  <!-- Bootstrap Scripts -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
 </body>
 
