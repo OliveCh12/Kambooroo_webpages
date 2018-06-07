@@ -103,19 +103,28 @@ label {
 .submit-form-button {
   text-align: center; }
 
-.content {
-  overflow: scroll;
-  width: 100%; }
-
 .content-title {
+  font-family: 'Montserrat';
+  font-weight: bolder;
   text-align: center;
   text-transform: uppercase;
-  font-weight: bold; }
+  font-weight: bold;
+  padding-top: 1rem; }
 
 .content-subtitle {
   text-align: center;
   margin: 2rem 0;
   font-size: 15pt; }
+
+.content-notification {
+  color: #B24592;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 5px 5px 5px rgba(71, 71, 71, 0.2);
+  border-radius: 100px;
+  float: right;
+  margin: 2rem;
+  position: fixed; }
 
 .content-strong {
   text-transform: uppercase;

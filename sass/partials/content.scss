@@ -1,18 +1,27 @@
-.content {
-  overflow: scroll;
-  width: 100%;
-}
-
 .content-title {
+  font-family: 'Montserrat';
+  font-weight: bolder;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
+  padding-top: 1rem;
 }
 
 .content-subtitle {
   text-align: center;
   margin: 2rem 0;
   font-size: 15pt;
+}
+
+.content-notification {
+  color: $raspberry;
+  background-color: $white;
+  padding: 20px;
+  box-shadow: 5px 5px 5px rgba($grey, 0.2);
+  border-radius: 100px;
+  float: right;
+  margin: 2rem;
+  position: fixed;
 }
 
 .content-strong {
@@ -51,7 +60,8 @@
   color: $raspberry;
   transition: 0.2s;
 }
-.content-button-active{
+
+.content-button-active {
   padding: 0.5rem;
   border: 1px solid $raspberry;
   background-color: $raspberry;
@@ -64,10 +74,12 @@
   color: $white;
   transition: 0.2s;
 }
-.content-button-active:hover{
+
+.content-button-active:hover {
   color: $white;
   text-decoration: none;
 }
+
 .content-profil {
   text-align: center;
 }
