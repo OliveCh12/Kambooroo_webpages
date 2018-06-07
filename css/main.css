@@ -27,6 +27,16 @@ a:hover {
 .nav-link:hover {
   color: #F15F79; }
 
+.welcome {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; }
+  .welcome .welcome-title {
+    color: #B24592 !important; }
+
 .rounded-circle {
   object-fit: cover;
   margin: 2rem; }
@@ -176,17 +186,22 @@ nav {
   padding-right: 1rem !important;
   padding-left: 1rem !important; }
 
+.btn:focus {
+  box-shadow: 0 0 0 0.2rem #B24592; }
+
+.primary:focus {
+  box-shadow: 0 0 0 0.2rem #B24592; }
+
 .btn-primary {
-  color: #fff;
-  background-color: #B24592;
-  border: 1px solid #B24592;
+  color: #fff !important;
+  background-color: #B24592 !important;
+  border: 1px solid #B24592 !important;
   border-radius: 50px;
   padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  width: 100%; }
+  padding-right: 1.5rem; }
 
 .btn-primary:hover {
-  color: #fff;
+  color: #fff !important;
   background-color: #B24592;
   border: 1px solid #B24592;
   opacity: 0.9; }
@@ -235,9 +250,7 @@ nav {
 .site-content {
   background-color: #f1f1f1;
   margin-left: 300px;
-  padding: 30px;
-  transition: 0.3s;
-  height: 3000px; }
+  transition: 0.3s; }
 
 .sidebar-header {
   display: flex;

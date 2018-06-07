@@ -34,7 +34,18 @@ a:hover {
   color: $strawberry;
 }
 
-.nav-link-active {}
+.welcome {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  .welcome-title{
+    color: $raspberry !important;
+  }
+}
+
 
 .rounded-circle {
   object-fit: cover;
