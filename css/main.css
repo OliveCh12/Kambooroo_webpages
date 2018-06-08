@@ -259,7 +259,8 @@ nav {
 .site-content {
   background-color: #f1f1f1;
   margin-left: 300px;
-  transition: 0.3s; }
+  transition: 0.3s;
+  min-height: 100vh; }
 
 .sidebar-header {
   display: flex;
@@ -297,9 +298,15 @@ nav {
   align-items: flex-end; }
 
 .sidebar-icon {
-  border-radius: 100px;
-  padding: 10px;
-  background-color: #fff; }
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .sidebar-icon:hover {
   transform: scale(1.1); }
