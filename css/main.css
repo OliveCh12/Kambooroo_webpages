@@ -124,7 +124,8 @@ label {
   border-radius: 100px;
   float: right;
   margin: 2rem;
-  position: fixed; }
+  position: fixed;
+  z-index: 3; }
 
 .content-strong {
   text-transform: uppercase;
@@ -144,6 +145,7 @@ label {
 .content-button-group {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 10px; }
 
 .content-button {
@@ -168,11 +170,12 @@ label {
   width: 100%;
   text-align: center;
   margin: 10px 20px;
-  color: #fff;
+  color: #fff !important;
   transition: 0.2s; }
 
 .content-button-active:hover {
-  color: #fff;
+  color: #fff !important;
+  opacity: 0.9;
   text-decoration: none; }
 
 .content-profil {
@@ -181,7 +184,7 @@ label {
 .content-button:hover {
   text-decoration: none;
   background-color: #B24592;
-  color: #fff; }
+  color: #fff !important; }
 
 @media (max-width: 800px) {
   .content-button-group {
@@ -260,7 +263,9 @@ nav {
   background-color: #f1f1f1;
   margin-left: 300px;
   transition: 0.3s;
-  min-height: 100vh; }
+  min-height: 100vh;
+  padding-left: 30px;
+  padding-right: 30px; }
 
 .sidebar-header {
   display: flex;
@@ -343,7 +348,8 @@ nav {
 
   .site-content {
     margin-left: 80px;
-    padding: 20px; }
+    padding-left: 20px;
+    padding-right: 20px; }
 
   .sidebar-logo {
     display: none; }
@@ -365,16 +371,24 @@ nav {
 
 .card-text {
   font-size: 10pt !important;
-  margin: 1rem 0 2rem 0;
+  margin: 1rem 0 2rem;
   opacity: 0.7; }
 
 .card-date {
   color: #B24592;
   opacity: 0.7; }
 
+.card-info {
+  font-weight: bold;
+  color: #B24592;
+  opacity: 0.7;
+  margin-top: 100px; }
+
 .card-profil {
-  width: 100%;
+  width: 200px;
   height: auto;
+  border-radius: 50%;
+  margin: 30px;
   object-fit: cover; }
 
 .card-age {
@@ -404,8 +418,8 @@ nav {
 .card-button {
   border: 1px solid #B24592;
   border-radius: 50px;
-  background-color: #B24592;
-  color: #fff;
+  background-color: inherit;
+  color: #B24592 !important;
   padding: 0.5rem;
   font-size: 10pt;
   width: 100%;
@@ -413,8 +427,8 @@ nav {
   text-align: center; }
 
 .card-button:hover {
-  background-color: #F15F79;
-  color: #fff;
+  background-color: #B24592;
+  color: #fff !important;
   text-decoration: none;
   border: none; }
 

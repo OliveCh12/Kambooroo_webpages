@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sign Up</title>
+  <title>Amis</title>
   <link rel="stylesheet" href="css/main.css">
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
@@ -16,6 +16,7 @@
 </head>
 
 <body>
+
   <!-- Sidebar Section -->
   <div class="site-sidebar">
     <div class="sidebar-header">
@@ -70,80 +71,38 @@
   <div class="site-content">
     <!-- Content Header -->
     <div class="content-header">
-      <i class="fas fa-bell fa-2x content-notification"></i>
-
-      <h2 class="content-title">Mon Profil</h2>
+      <a class="content-notification" href="#"><i class="fas fa-bell fa-2x"></i></a>
+      <h2 class="content-title">Mon Réseau</h2>
       <hr class="content-divider">
       <div class="content-button-group">
-
+        <a class="content-button" href="reseau_">Ajouter des amis</a>
+        <a class="content-button-active" href="reseau_1.html">Mes Amis</a>
+        <a class="content-button" href="">Invitations</a>
       </div>
+    </div>
 
-      <div class="card-deck">
-        <div class="card text-center">
-          <div class="card-body">
-            <h5 class="card-title">Rechercher</h5>
-            <form class="" action="index.html" method="post">
-              <input class="form-control" type="text" placeholder="Votre recherche">
-            </form>
-            <br>
-            <p class="card-text">Renseignez le nom et prénom de la personne que vous souhaitez ajouter à votre liste d'ami</p>
-            <div class="card-button-group">
-              <!-- Button trigger modal -->
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                Parrainage
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- Modal -->
-        <div class="modal fade text-center" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-              <div class="modal-body">
-                <h5 class="modal-title" id="">Parrainer un ami</h5>
-                <hr class="content-divider">
-                <form>
-                  <div class="form-group">
-                    <label for="exampleInputEmail1">Adresse E-Mail</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                    <small id="emailHelp" class="form-text text-muted">Invitez un de vos amis à rejoindre la plateforme</small>
-                  </div>
-                  <button class="modal-button" type="button" name="button">Envoyer</button>
-                </form>
+    <section class="content-feed">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card">
+            <img class="card-profil" src="http://static.anthony-buque.fr/media/gallery/img/yeah-femme-couleur.jpg" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Alicia Miller</h5>
+              <span class="card-info">Maman</span>
+              <div class="card-button-group">
+                <a href="#" class="card-button">Profil</a>
+                <a href="#" class="card-button">Supprimer</a>
               </div>
             </div>
           </div>
         </div>
-        <div class="card text-center">
-          <img class="card-profil rounded-circle" src="http://philippedouale.com/wp-content/uploads/2017/06/modifier-profil-LinkedIn.jpg" alt="">
-          <div class="card-body">
-            <h5 class="card-title">Emma Watson</h5>
-            <p class="card-text">Maman</p>
-            <div class="card-button-group">
-              <a class="card-button" href="#">Profil</a>
-              <a class="card-button" href="#">Supprimer</a>
-            </div>
-          </div>
-        </div>
-        <div class="card text-center">
-          <img class="card-profil" src="http://philippedouale.com/wp-content/uploads/2017/06/modifier-profil-LinkedIn.jpg" alt="">
-          <div class="card-body">
-            <h5 class="card-title">Emma Watson</h5>
-            <p class="card-text">Maman</p>
-            <div class="card-button-group">
-              <a class="card-button-outline" href="#">Profil</a>
-              <a class="card-button-outline" href="#">Supprimer</a>
-            </div>
-          </div>
-        </div>
-
       </div>
-
-    </div>
-    <!-- Content Form -->
-
-
-
+    </section>
+  </div>
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>

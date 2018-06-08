@@ -22,6 +22,7 @@
   float: right;
   margin: 2rem;
   position: fixed;
+  z-index: 3;
 }
 
 .content-strong {
@@ -45,6 +46,7 @@
 .content-button-group {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 10px;
 }
 
@@ -71,12 +73,13 @@
   width: 100%;
   text-align: center;
   margin: 10px 20px;
-  color: $white;
+  color: $white !important;
   transition: 0.2s;
 }
 
 .content-button-active:hover {
-  color: $white;
+  color: $white !important;
+  opacity: 0.9;
   text-decoration: none;
 }
 
@@ -87,7 +90,7 @@
 .content-button:hover {
   text-decoration: none;
   background-color: $raspberry;
-  color: $white;
+  color: $white !important;
 }
 @media (max-width: 800px) {
   .content-button-group {
