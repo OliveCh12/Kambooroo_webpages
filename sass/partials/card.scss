@@ -28,7 +28,7 @@
 }
 
 .card-profil {
-  width: 200px;
+  width: 150px;
   height: auto;
   border-radius: 50%;
   margin: 30px;
@@ -98,4 +98,13 @@
   color: $white;
   text-decoration: none;
   border: none;
+}
+.card-content-info{
+  display: flex;
+}
+.card-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

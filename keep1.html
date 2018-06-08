@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="css/main.css">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Poppins" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- Sidebar Section -->
+  <div class="site-sidebar">
+    <div class="sidebar-header">
+      <a class="" href="#"><img class="sidebar-logo"src="img/Logo.svg" alt="" width=""></a>
+      <a href="#"><img class="sidebar-logo-single" src="img/Logo_single.svg" alt=""></a>
+    </div>
+
+    <nav>
+      <ul class="sidebar-list">
+        <li class="sidebar-item">
+          <a class="sidebar-icon" href="#"><i class="fas fa-home fa-1x"></i></a>
+          <a class="sidebar-button" href="">Accueil</a>
+        </li>
+        <li class="sidebar-item">
+          <a class="sidebar-icon" href="#"><i class="fas fa-users fa-1x"></i></a>
+          <a class="sidebar-button" href="">Réseau</a>
+        </li>
+        <li class="sidebar-item">
+          <a class="sidebar-icon" href="#"><i class="fas fa-shield-alt fa-1x"></i></a>
+          <a class="sidebar-button" href="">Garde</a>
+        </li>
+        <li class="sidebar-item">
+          <a class="sidebar-icon" href="#"><i class="fas fa-puzzle-piece fa-1x"></i></a>
+          <a class="sidebar-button" href="">Ateliers</a>
+        </li>
+        <li class="sidebar-item">
+          <a class="sidebar-icon" href="#"><i class="fas fa-align-justify fa-1x"></i></a>
+          <a class="sidebar-button" href="">Conseils</a>
+        </li>
+      </ul>
+      <hr class="sidebar-divider-nav">
+      <ul class="sidebar-list">
+        <li class="sidebar-item">
+          <a class="sidebar-icon" href="#"><i class="fas fa-user fa-1x"></i></a>
+          <a class="sidebar-button" href="">Profil</a>
+        </li>
+        <li class="sidebar-item">
+          <a class="sidebar-icon" href="#"><i class="fas fa-envelope fa-1x"></i></a>
+          <a class="sidebar-button" href="">Contact</a>
+        </li>
+        <li class="sidebar-item">
+          <a class="sidebar-icon" href="#"><i class="fas fa-sign-out-alt fa-1x"></i></a>
+          <a class="sidebar-button" href="">Déconnexion</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Content Section -->
+  <div class="site-content">
+    <!-- Content Header -->
+    <div class="content-header">
+      <a class="content-notification" href="#"><i class="fas fa-bell fa-2x"></i></a>
+      <h2 class="content-title">Gardes</h2>
+      <hr class="content-divider">
+      <div class="content-button-group">
+        <a class="content-button-active" href="reseau_">Mes besoins</a>
+        <a class="content-button" href="">Besoins du réseau</a>
+        <a class="content-button" href="">En cours</a>
+      </div>
+    </div>
+
+    <section class="content-feed">
+
+      <!-- Card-Form Section -->
+      <div class="card p-5 text-center">
+        <div class="card-body">
+          <div class="card-title mb-4">J'ai besoin d'une garde</div>
+          <div class="card-text mb-5">
+            Remplissez le formulaire ci-dessous afin de soliciter votre réseau de confiance pour garder votre enfants.
+          </div>
+          <form>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="form-group">
+                  <label for="">Nombre d'enfants</label>
+                  <select class="form-control" name="">
+                   <option>1</option>
+                   <option>2</option>
+                   <option>3</option>
+                </select>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <label for="">Age des enfants</label>
+                  <input class="form-control" type="number" name="" value="" min="1" max="15" placeholder="Age">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <label for="">Date</label>
+                  <input type="date" class="form-control" placeholder="Entrez une date">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="">Choisir un ami</label>
+                  <input type="search" class="form-control" placeholder="Choissisez votre ami">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="">Temps de garde</label>
+                  <input type="time" class="form-control" placeholder="Entrez une durée">
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label for="">Localisation</label>
+                  <input type="text" class="form-control" placeholder="Localisation">
+                </div>
+              </div>
+            </div>
+            <div class="text-center">
+              <button class="card-button-outline" type="submit" name="button" style="width: 100px;">Publier</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Card-Info-Section -->
+      <div class="card text">
+        <div class="card-title text-center mt-4 mb-4">Mes besoins</div>
+        <div class="card">
+          <div class="row">
+            <div class="col-md-3">
+              <img class="card-profil" src="http://static.anthony-buque.fr/media/gallery/img/yeah-femme-couleur.jpg" alt="">
+            </div>
+            <div class="col-md-4">
+              <div class="card-title">Alice Deschamps</div>
+              <span class="card-info">Mère de famille</span>
+              <br>
+              <a class="mt-5" href="#"><i class="fas fa-map-marker mr-3"></i>37 avenue de l'Opéra, Paris île de France</a>
+              <a class="mt-3" href="#"><i class="fas fa-smile mr-3"></i>Nombre d'enfants :  2</a>
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
