@@ -1,0 +1,27 @@
+header {
+  background-image: linear-gradient(0deg, $strawberry 0%, $raspberry 100%);
+}
+
+.feature-content{
+  padding-top: 100px !important;
+  padding-bottom: 200px !important;
+}
+
+.services-content{
+  margin-top: -100px !important;
+}
+.services-content i{
+  color: $raspberry;
+}
+
+.subscribe-content {
+  background-image: linear-gradient(0deg, $raspberry 0%, $strawberry 100%);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-top: -110px;
+}
+.footer-down{
+  background-color: $raspberry;
+  color: $white;
+
+}

@@ -14,7 +14,6 @@ p {
   line-height: 20pt; }
 
 a {
-  color: #B24592 !important;
   transition: 0.2s; }
 
 a:hover {
@@ -96,6 +95,22 @@ label {
   transition: 0.3s !important; }
 
 .form-control:focus {
+  border-color: #B24592 !important;
+  color: #B24592 !important;
+  box-shadow: none !important; }
+
+.form-control-sm {
+  border: 1.5px solid rgba(178, 69, 146, 0.5) !important;
+  font-size: 10pt !important;
+  padding: 0.5rem 0.5rem !important;
+  transition: 0.3s !important; }
+
+.form-control:focus {
+  border-color: #B24592 !important;
+  color: #B24592 !important;
+  box-shadow: none !important; }
+
+.form-control-sm:focus {
   border-color: #B24592 !important;
   color: #B24592 !important;
   box-shadow: none !important; }
@@ -477,5 +492,28 @@ nav {
   color: #fff;
   border: 1px solid #B24592;
   background-color: #B24592; }
+
+header {
+  background-image: linear-gradient(0deg, #F15F79 0%, #B24592 100%); }
+
+.feature-content {
+  padding-top: 100px !important;
+  padding-bottom: 200px !important; }
+
+.services-content {
+  margin-top: -100px !important; }
+
+.services-content i {
+  color: #B24592; }
+
+.subscribe-content {
+  background-image: linear-gradient(0deg, #B24592 0%, #F15F79 100%);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-top: -110px; }
+
+.footer-down {
+  background-color: #B24592;
+  color: #fff; }
 
 /*# sourceMappingURL=main.css.map */
