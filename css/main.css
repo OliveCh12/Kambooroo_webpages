@@ -219,6 +219,26 @@ nav {
 .primary:focus {
   box-shadow: 0 0 0 0.2rem #B24592; }
 
+.nav-btn {
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 10pt;
+  border-radius: 50px; }
+
+.nav-btn:hover {
+  color: #B24592 !important;
+  background-color: #fff; }
+
+.nav-btn-lg {
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 12pt;
+  border-radius: 50px; }
+
+.nav-btn-lg:hover {
+  color: #B24592 !important;
+  background-color: #fff; }
+
 .btn-primary {
   color: #fff !important;
   background-color: #B24592 !important;
