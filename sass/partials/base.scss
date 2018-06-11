@@ -40,11 +40,15 @@ a:hover {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  .welcome-title{
+
+  .welcome-title {
     color: $raspberry !important;
   }
 }
 
+.page-item .page-link {
+  color: $raspberry !important;
+}
 
 .rounded-circle {
   object-fit: cover;

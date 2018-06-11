@@ -19,12 +19,12 @@
 
 <body>
   <!-- Header Section -->
-  <header class="header-gradient">
-
-    <nav class="navbar navbar-expand-lg navbar-dark py-4 text-center">
+  <header class="header-light">
+<!-- Navbar Light -->
+    <nav class="navbar navbar-expand-lg navbar-light py-4 text-center">
       <div class="container-fluid">
 
-        <a class="navbar-brand mb-3" href="#"><img src="img/Logo.svg" alt="" width="100"></a>
+        <a class="navbar-brand mb-3" href="index.html"><img class="logo-light" src="img/Logo_rasberry.svg" alt="" width="100"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -37,7 +37,7 @@
               <a class="nav-link" href="#">Actualités</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="blog.html">Blog</a>
+              <a class="nav-link" href="#">Blog</a>
             </li>
           </ul>
           <ul class="navbar-nav ml-auto">
@@ -51,65 +51,49 @@
               <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
             </li>
             <li class="nav-item">
-              <a class="btn-nav btn nav-btn" href="signup.html">S'inscrire</a>
+              <a class="btn-nav btn nav-btn-light" href="signup.html">S'inscrire</a>
             </li>
             <li class="nav-item">
-              <a class="btn-nav btn nav-btn" href="login.html">Se connecter</a>
+              <a class="btn-nav btn nav-btn-light" href="login.html">Se connecter</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <section class="feature-content">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 mb-5">
-            <h2 class="text-light">Entrez dans le réseau d'entraide parental</h2>
-            <p class="text-light">Kambooroo est une plateforme collaborative destinée à l’épanouissement des enfants. Créez votre réseau de confiance entre jeunes parents et profitez d’ateliers conçus spécialement pour vous et vos enfants !</p>
-          </div>
-          <div class="col-md-6">
-            <img src="img/illustration_1.svg" alt="">
-          </div>
-        </div>
-      </div>
-    </section>
   </header>
-  <section class="services-content text-center my-5">
+  <!-- Article Section -->
+  <section>
     <div class="container">
-      <div class="card p-5">
-        <div class="row">
-          <div class="col-md-4">
-            <i class="fas fa-puzzle-piece fa-5x my-4"></i>
-            <h3>Ateliers</h3>
-            <p class="my-3">Profitez d'ateliers pédagogiques pour recevoir des conseils de professionnels.</p>
-          </div>
-          <div class="col-md-4">
-            <i class="fas fa-users fa-5x my-4"></i>
-            <h3>Créez un réseau</h3>
-            <p class="my-3">Profitez d'ateliers pédagogiques pour recevoir des conseils de professionnels.</p>
-          </div>
-          <div class="col-md-4">
-            <i class="fas fa-shield-alt fa-5x my-4"></i>
-            <h3>Un system de garde</h3>
-            <p class="my-3">Profitez d'ateliers pédagogiques pour recevoir des conseils de professionnels.</p>
-          </div>
-        </div>
+      <div class="content-header">
+        <h2 class="content-title">Blog</h2>
+        <hr class="content-divider">
       </div>
-    </div>
-  </section>
-  <section class="subscribe-content">
-    <div class="container">
+
       <div class="row">
-        <div class="col-md-6 text-center">
-          <img class="img-responsive"src="http://via.placeholder.com/300x300" alt="">
+        <div class="col-md-6">
+          <!--Article Card -->
+          <article class="">
+            <div class="card">
+              <img class="card-img-top" src="http://static.anthony-buque.fr/media/gallery/img/yeah-femme-couleur.jpg" alt="" height="200">
+              <div class="card-body">
+                <div class="card-title"><a class="card-link" href="">Une vie bien plus belle sans...</a></div>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <a href="#"><i class="far fa-heart fa-2x card-icon"></i></a><span class="card-counter">93 likes</span>
+              </div>
+            </div>
+          </article>
         </div>
-        <div class="col-md-6 mt-5">
-          <h3 class="text-light">Inscrivez vous gratuitement dès maintenant</h3>
-          <p class="text-light">Rejoignez des milliers de familles pour apprendre à mieux connaître vos enfants.</p>
-          <a href="" class="btn nav-btn-lg">S'inscrire</a>
-        </div>
+
       </div>
-    </div>
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      </nav>
   </section>
   <footer class="bg-light py-5">
     <div class="container">

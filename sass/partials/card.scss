@@ -11,8 +11,11 @@
 
 .card-text {
   font-size: 10pt !important;
-  margin: 1rem 0 2rem;
+  margin: 1rem 0 1rem;
   opacity: 0.7;
+}
+.card-link{
+  color: $raspberry;
 }
 
 .card-date {
@@ -101,6 +104,18 @@
 }
 .card-content-info{
   display: flex;
+}
+.card-icon{
+  color: $raspberry;
+  margin-right: 1rem;
+  vertical-align: middle;
+}
+.card-icon:hover{
+  color: $strawberry;
+}
+.card-counter{
+  font-size: 10pt;
+  margin-top: 0.5rem;
 }
 .card-flex{
   display: flex;
