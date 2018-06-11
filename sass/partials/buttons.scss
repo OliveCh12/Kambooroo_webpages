@@ -1,9 +1,78 @@
+//button
+
+.btn-primary {
+  color: #fff !important;
+  background-color: $raspberry !important;
+  border: 1px solid $raspberry !important;
+  border-radius: 50px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 50px !important;
+  font-size: 10pt !important;
+}
+
+.btn-primary:hover {
+  color: #fff !important;
+  background-color: $raspberry;
+  border: 1px solid $raspberry;
+  opacity: 0.9;
+}
+
+.btn-nav {
+  margin-left: 1rem;
+}
+
+.btn-outline-primary {
+  border-radius: 50px;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 10pt;
+}
+
+.btn-outline-primary:hover {
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #474747;
+}
+
+.btn-outline-secondary {
+  border-radius: 50px;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  border: 1px solid #f1f1f1;
+  color: #f1f1f1;
+  font-size: 10pt;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #f1f1f1;
+  border: 1px solid #f1f1f1;
+  color: #474747;
+}
+
 .btn:focus {
   box-shadow: 0 0 0 0.2rem $raspberry;
 }
 
 .primary:focus {
   box-shadow: 0 0 0 0.2rem $raspberry;
+}
+
+.btn-primary-social{
+  border: 1px solid $raspberry !important;
+  color: $raspberry;
+    border-radius: 50px !important;
+      font-size: 10pt !important;
+  .btn-icon{
+    margin-left: 0.5rem;
+  }
+}
+.btn-primary-social:hover{
+  border: 1px solid $strawberry !important;
+  background-color: $strawberry;
+  color: $white;
 }
 .nav-btn{
   color: $white;
